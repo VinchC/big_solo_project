@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Counter from "../components/Counter/CounterComponent.tsx";
-// import "./index.css";
-import "../Scss.jsx";
+import Counter from "./CounterComponent.tsx";
+import "../../Scss.jsx";
 
 ReactDOM.createRoot(document.getElementById("counter")!).render(
   <React.StrictMode>
