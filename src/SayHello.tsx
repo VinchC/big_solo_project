@@ -1,4 +1,5 @@
-import "./App.css";
+// import "./App.css";
+import "./Scss.jsx";
 
 function SayHello() {
   const name = prompt("What's your name ?");

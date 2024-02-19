@@ -1,0 +1,9 @@
+$font-stack: "Comic Sans";
+$primary-color: #f90606;
+$text-font-size: 2rem;
+
+* {
+  background-color: lightblue;
+  color: $primary-color;
+  font-size: $text-font-size;
+}
