@@ -1,4 +1,3 @@
-// import "./App.css";
 import StyledTitle from "../StyledElements/StyledTitle.tsx";
 
 function Counter() {
