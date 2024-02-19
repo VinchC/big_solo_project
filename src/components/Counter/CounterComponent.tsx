@@ -1,5 +1,5 @@
-import "./App.css";
-import StyledTitle from "./StyledTitle.tsx";
+// import "./App.css";
+import StyledTitle from "../StyledElements/StyledTitle.tsx";
 
 function Counter() {
   return (
