@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 class Character {
-  name: string;
+  username: string;
   level: number;
-  constructor(name: string, level: number) {
-    this.name = name;
+  constructor(username: string, level: number) {
+    this.username = username;
     this.level = level;
   }
 }

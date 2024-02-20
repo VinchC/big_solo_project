@@ -1,10 +1,14 @@
-import StyledTitle from "../StyledElements/StyledTitle.tsx";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState } from "react";
 
 function Counter() {
+  const [count, setCount] = useState(0);
+
   return (
     <>
-      <p>To be done later</p>
-      <StyledTitle />
+      <div>
+        <button onClick={() => setCount((count) => count + 1)}>{count}</button>
+      </div>
     </>
   );
 }
