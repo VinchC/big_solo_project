@@ -10,6 +10,10 @@ function CreateHero() {
   //   console.log("Flemmard!");
   // }
 
+  // Hero.prototype.attack = () => {
+  //   return `Hello I'm ${username} and I hit you!`;
+  // };
+
   const hero = new Hero(username, level, weapon);
 
   return (

@@ -8,9 +8,9 @@ class Hero extends Character {
     super(username, level);
     this.weapon = weapon;
   }
-  attack() {
+  attack = () => {
     return `Hello I'm ${this.username} and I hit you!`;
-  }
+  };
 }
 
 export default Hero;

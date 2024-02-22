@@ -12,6 +12,17 @@ $gap-basic: 1rem;
   font-family: $font-stack;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+nav ul li a {
+  color: $secondary-color;
+  font-size: calc($text-font-size / 2);
+}
+
 .counter {
   width: 100%;
   display: flex;
