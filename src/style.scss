@@ -21,6 +21,7 @@ nav ul {
 nav ul li a {
   color: $secondary-color;
   font-size: calc($text-font-size / 2);
+  text-decoration: none;
 }
 
 .counter {
