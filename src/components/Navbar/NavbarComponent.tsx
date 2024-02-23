@@ -15,6 +15,9 @@ function Navbar() {
             <a href="/fetch">Fetch</a>
           </li>
           <li>
+            <a href="/fetchAxios">Fetch Axios</a>
+          </li>
+          <li>
             <a href="/hero">Hero</a>
           </li>
           <li>

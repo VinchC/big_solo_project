@@ -2,9 +2,9 @@
 
 function Fetch() {
   const getData = () => {
-    fetch("https://random-data-api.com/api/coffee/random_coffee")
+    fetch("https://randomuser.me/api/")
       .then((response) => response.json())
-      .then((dataCoffee) => console.log(dataCoffee));
+      .then((dataUser) => console.log(dataUser));
 
     fetch("https://random-data-api.com/api/v2/beers")
       .then((response) => response.json())
@@ -13,9 +13,11 @@ function Fetch() {
 
   return (
     <>
-      <button className="control_btn" onClick={getData}>
-        Fetch
-      </button>
+      <div className="buttonCenter">
+        <button className="control_btn" onClick={getData}>
+          Fetch
+        </button>
+      </div>
     </>
   );
 }
