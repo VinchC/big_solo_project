@@ -24,6 +24,7 @@ nav ul li a {
   text-decoration: none;
 }
 
+.converter,
 .counter {
   width: 100%;
   display: flex;
@@ -33,6 +34,7 @@ nav ul li a {
   row-gap: $gap-basic;
 }
 
+.converter h2,
 .counter h1 {
   font-size: calc($text-font-size / 2);
 }
